@@ -1,0 +1,9 @@
+Variables: Son lugares en la memoria del PC donde puedes guardar informacion que puedes usar en una o varias veces,en estas variables puedes guardar datos como palablras, numeros, booleanos(true o false), grupos de cosas(array) y objetos.
+
+Strings: Son cadenas de texto que se representan entre comillas (""), pueden ser letras o numeros, si estan encerrados entre comillas son Strings.
+
+Funciones (argumentos, return): Son porciones de codigo que reazan una acctión, pueden recibir argumentos, que son algún tipo de dato, realizar una acción que le especifiquemos y puede devolver algun dato (return) para ser usado el otro lugar del codigo, donde lo sea requerido.
+
+Declaraciones if: Son condicionales con los que podemos decidir que cosas queremos que se ejecuten, vamos a plantear una condición la cual va a decidir si se realiza una accion u otra, según la condición evaluada se realizara una acción u otra.
+
+Valores booleanos (true, false): Son valores que pueden ser verdaderos(true) o falsos(false).
