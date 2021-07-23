@@ -1,0 +1,23 @@
+for: Es una expresión que va a realizar una acción las  veces que se indiquen, un cliclo for puede tener la siguiente extructura:
+
+for ( let i=0 ; i < x; i++){ }
+
+la palabra for resevada para indicar que se van a ejecutar las acciones es un ciclo repetitivo.
+
+sigue la expresión que se va a evaluar dentro de los parentesis ().
+
+En este casi declaramos la i, la iniciamos en 0, este va a ser el inicio de nuestro bucle for.
+
+Despúes del primer ";" vamos a realizar una operacion condicional, esta nos dice que el ciclo se va a ejecutar mientras esta condición se cumpla. en este caso se va a seguir ejecutando mientras x sea mayor a i, en caso contrario no se ejecutara más el ciclo.
+
+En seguida del segundo ";" viene i++, esto modifica el valor de i incrementando su valor para, en el momento que el valor de i sea mayor o igual que x se va a terminar el ciclo for, en este punto hay que tener cuidado para no ejecutar un ciclo infinito.
+
+por ultimo vamos a ejecutar el codigo dentro de las {}, ahí va el codigo que se va a ejecutar en cada teración del ciclo.
+
+&&, ||, !:
+
+El operador y (&&) une dos condicionales, indica que se tienen que cumplir ambas condiciones para que el resultado sea verdadero, si alguna da las dos condiciones es falsa, el resultado será falso.
+
+El operador o (||) une dos condiciones en conjunto que va a ser verdadero si almenos una de las dos condiciones es verdadera, para que sean falsas tiene que ambas condiciones ser flasas.
+
+La (!) va a estar al lado de un condicional, el cual va a negar su valor, si el valor era true, con el operador ! va a ser falso y viceversa.
