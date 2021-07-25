@@ -1,0 +1,42 @@
+Objetos:
+Los Objetos son representaciónes que vamos a hacer de cosas, que va a tener sus caracteristicas y acciones, por ejemplo podemos representar como objeto a un perro y vamos asignarle caracteristicas de perros, por ejemplo van a tener nombre, cola, patas, orejas, ojos, etc. Así mismo van a poder realizar acciones como por ejemplo ladrar o correr. estas caracteristicas y acciones las vamos a representar de la siguiente forma:
+
+const perro = {
+  nombre : "Mancha",
+  numeroPatas : 4,
+  ladrar : function (){
+    console.log("Guau guau")
+  },
+  correr : funtion (){
+    console.log("Se dezplaza rapidamente")
+  }
+}
+
+Propiedades:
+Las propiedades son las caracteristicas que va a tener nuestro objeto, como en el ejemplo anterior serian las cualidades que definimos de nuestro perro su nombre y sus patas, estos van a estar representados por una clave y su valor (key/value), la clave es una variable donde vamos a guardar su valor que pueden ser String, numbers,booleanos, arrays u otros objetos.
+
+Métodos:
+vamos a guardar funciones en las claves dentro de nuestros objetos, a estas claves (key) las vamos a conocer como métodos que vamos a poder invocar mediante su clave, en el ejemplo del perro serian las acciones que puede realizar como ladrar o correr.
+
+Bucle for ... in:
+En los objetos sus valores estan almacenados en claves(key) a diferencia de los arrays que los valores eran almacenados en indices numericos, para recorrer las claves de los objetos vamos a usar el bucle for diciendo que recorra las claves del objeto como si fueran los indices del un array. para recorrer las claves de nuestro perro diremos lo siguiente:
+
+for ( key in perro ){
+  console.log(key + "\n");
+}
+
+que imprime:
+
+nombre
+numeroPatas
+ladrar
+correr
+
+de esta forma estaremos imprimiendo las claves que almacenan los atributos de nuestro perro.
+
+Notación de puntos vs notación de corchetes
+
+Con la notacion de puntos y cochetes vamos a aceder a los valores de las propiedades o los metodos de los objetos.
+
+con la notación de punto vamos a acceder más facil mente al contenido de las propiedades casi de la misma forma que con la notación de corchete que además nos va a permitir capturar el la key y el valor de la misma.
+
