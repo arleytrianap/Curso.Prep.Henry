@@ -1,0 +1,1 @@
+Array: Es un lugar de memoria donde se guardan un grupo de datos, pueden ser Strings, numeros, booleanos, otros arrays, objetos. Los datos se guardan dentro de llaves "[]" y separados por ",":
