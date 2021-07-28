@@ -4,4 +4,4 @@ Son un mecanismo mediante el cual se heredan caracteristicas de objetos entre si
 
 Constructors (de Clases)
 
-El metodo constructor es donde vamos a definir los atributos y los metodos de nuestro objeto, como que tipos de datos va a contener nuestro objeto o que metodos va a realizar, en otras palabras es como un molde para hacer nuestros objetos, con ellos podemos decir que cuando queramos hacer un objeto lo hagamos con los parametros que esten definidos en su "molde" que en JavaScript seria el metodo constructot y apartir de el crear nuestros objetos. 
+El metodo constructor es donde vamos a definir los atributos y los metodos de nuestro objeto, como que tipos de datos va a contener nuestro objeto o que metodos va a realizar, en otras palabras es como un molde para hacer nuestros objetos, con ellos podemos decir que cuando queramos hacer un objeto lo hagamos con los parametros que esten definidos en su "molde" que en JavaScript seria el metodo constructot y apartir de el crear nuestros objetos.

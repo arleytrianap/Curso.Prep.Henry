@@ -1,0 +1,3 @@
+Callback
+
+Son funciones que se pasan como argumento de otras funciones, muchas veces vamos a necesitar que el resultado de una funcion sea el argumento de otra funcion, ahí estaríamos usando una función que recive como argumento un cb para continuar su ejecucion, hasta que el cb es ejacutado y resuelto es probable que la funcion que llamo a este no continue su ejecucion hasta que el cb es resuelto.
