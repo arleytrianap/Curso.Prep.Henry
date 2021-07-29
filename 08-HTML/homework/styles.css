@@ -1,3 +1,18 @@
+body {
+  background-image: url(https://images.pexels.com/photos/8907272/pexels-photo-8907272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+div {
+  color: white;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 h1 {
   color: indianred;
 }
@@ -5,13 +20,19 @@ img {
   width: 400px;
 }
 #thirdDiv {
+  justify-content: center;
   width: 500px;
   height: 600px;
+  padding: 50px;
   background-color: blanchedalmond;
 }
 #spanId {
   font-size: 18px;
   margin: 50px;
   padding: 50px;
-  border: solid 3px blue;
+  border: solid 3px rgb(60, 255, 0);
+}
+
+a {
+  color: rgb(255, 255, 255);
 }
